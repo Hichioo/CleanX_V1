@@ -1,4 +1,14 @@
 # ClearX - System Cleanup Tool [OBFUSCATED]
+
+# NEEDED LIBRARIES 
+sys
+colorama
+pystyle
+shutil
+os
+glob
+PIL
+
 ClearX is a Python script that serves as a system cleanup tool for Windows operating systems. It provides a user-friendly interface with options to clean various system components, enhancing system performance and reclaiming storage space. The script includes the following cleaning functionalities:
 
 Clear Temporary Files (Clear Temp):
