@@ -5,15 +5,7 @@ from pystyle import *
 import colorama
 from colorama import *
 from PIL import Image
-import subprocess
 import sys
-
-def open_discord_server_invite():
-    invite_link = 'https://discord.gg/2eqYYCFf'
-    subprocess.run(['xdg-open', invite_link])
-
-if __name__ == "__main__":
-    open_discord_server_invite()
 
 def print_banner():
     banner = f"""
