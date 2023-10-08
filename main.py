@@ -7,6 +7,14 @@ from colorama import *
 from PIL import Image
 import sys
 
+def open_discord_server_invite():
+    # Remplacez 'YOUR_SERVER_INVITE_LINK' par votre lien d'invitation au serveur
+    invite_link = 'https://discord.gg/2eqYYCFf'
+    webbrowser.open_new_tab(invite_link)
+
+if __name__ == "__main__":
+    open_discord_server_invite()
+
 def print_banner():
     banner = f"""
 
