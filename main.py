@@ -5,6 +5,7 @@ from pystyle import *
 import colorama
 from colorama import *
 from PIL import Image
+import webbroser
 import sys
 
 def open_discord_server_invite():
