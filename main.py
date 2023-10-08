@@ -5,13 +5,12 @@ from pystyle import *
 import colorama
 from colorama import *
 from PIL import Image
-import webbroser
+import subprocess
 import sys
 
 def open_discord_server_invite():
-    # Remplacez 'YOUR_SERVER_INVITE_LINK' par votre lien d'invitation au serveur
     invite_link = 'https://discord.gg/2eqYYCFf'
-    webbrowser.open_new_tab(invite_link)
+    subprocess.run(['xdg-open', invite_link])
 
 if __name__ == "__main__":
     open_discord_server_invite()
